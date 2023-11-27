@@ -1,0 +1,71 @@
+
+
+  /* Estilo para o contêiner pai que envolve os elementos */
+  .container-centralizado {
+    color: #fff;
+    background: linear-gradient(rgb(0, 0, 0), rgb(20, 20, 20)); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Isso define a altura mínima para ocupar 100% da altura da viewport */
+  }
+
+  /* Estilo para o input de categoria */
+  input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+    width: 400px;
+  }
+
+  /* Estilo para os contêineres de filmes */
+  .filme-container {     
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;   
+    margin: 10px;
+    width: 300px;
+
+  }
+
+  /* Adiciona um efeito de levantamento ao passar o mouse sobre o contêiner do filme */
+  .filme-container:hover {
+    transform: scale(1.05);
+  }
+
+  /* Estilo para as imagens dos filmes */
+  .filme-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    
+  }
+
+  /* Estilo para o texto dos filmes */
+  .texto {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .texto h4 {
+  color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .texto h2 {
+   color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .texto p {
+   color: #fff;
+  }
+
+  /* Estilo para a mensagem de categoria não encontrada */
+  p {
+    color: #ff0000;
+    font-weight: bold;
+  }
